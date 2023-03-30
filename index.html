@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online grocery store</title>
+    <!-- Fontawesome cdn file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom file link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <!-- Header section -->
+    <header>
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
+
+            <form action="" class="search-container">
+                <input type="search" id="search" placeholder="search here...">
+                <label for="search" class="fas fa-search"></label>
+            </form>
+        </div>
+
+        <div class="header-2">
+            <div id="menu-icon" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#category">category</a>
+                <a href="#product">product</a>
+                <a href="#contact">contact</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <!-- Home section -->
+        <section class="home" id="home">
+
+            <div class="image">
+                <img src="./images/home-img.avif" alt="">
+            </div>
+
+            <div class="content">
+                <span>fresh and organic</span>
+                <h3>your daily need products</h3>
+                <a href="#" class="btn">get started</a>
+            </div>
+
+        </section>
+
+        <!-- Banner section -->
+        <section class="banner-container">
+
+            <div class="banner">
+                <img src="./images/banner-1.jpg" alt="">
+                <div class="content">
+                    <h3>special offer</h3>
+                    <p>upto 45% off</p>
+                    <a href="" class="btn">check out</a>
+                </div>
+            </div>
+
+            <div class="banner">
+                <img src="./images/banner-2.jpg" alt="">
+                <div class="content">
+                    <h3>limited offer</h3>
+                    <p>upto 50% off</p>
+                    <a href="" class="btn">check out</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Category section -->
+        <section class="category" id="category">
+            <h1 class="heading">shop by <span>category</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <h3>Vegetables</h3>
+                    <p>upto 50% off</p>
+                    <img src="./images/category-1.jpg" alt="">
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+                <div class="box">
+                    <h3>Juice</h3>
+                    <p>upto 44% off</p>
+                    <img src="./images/category-2.jpg" alt="">
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+                <div class="box">
+                    <h3>Meat</h3>
+                    <p>upto 35% off</p>
+                    <img src="./images/category-3.jpg" alt="">
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+                <div class="box">
+                    <h3>Fruite</h3>
+                    <p>upto 12% off</p>
+                    <img src="./images/category-4.jpg" alt="">
+                    <a href="#" class="btn">shop now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product section -->
+        <section class="product" id="product">
+            <h1 class="heading">latest <span>products</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <span class="discount">-33%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-1.jpg" alt="">
+                    <h3>organic banana</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-45%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-2.jpg" alt="">
+                    <h3>organic tomato</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-52%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-3.jpg" alt="">
+                    <h3>organic orange</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-13%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-4.jpg" alt="">
+                    <h3>natural milk</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-20%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-5.jpg" alt="">
+                    <h3>organic grapes</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-29%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-6.jpg" alt="">
+                    <h3>natural almonts</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-55%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-7.jpg" alt="">
+                    <h3>organic apple</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-30%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-8.jpg" alt="">
+                    <h3>natural butter</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-40%</span>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <img src="./images/product-9.jpg" alt="">
+                    <h3>organic carrot</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"> $10.50 <span> $13.20 </span></div>
+                    <div class="quantity">
+                        <span>quantity: </span>
+                        <input type="number" min="1" max="1000" value="1">
+                        <span> /kg</span>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>contact</span> us</h1>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </section>
+
+        <!-- Newsletter section -->
+        <section class="newsletter">
+            <h3>Subscribe us for latest updates</h3>
+            <form action="">
+                <input type="email" placeholder="enter your email..." class="box">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>groco</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda alias minus ipsam mollitia? Voluptate asperiores, et labore atque aliquid quia?</p>
+                <div class="share">
+                    <a href="https://facebook.com" class="btn fab fa-facebook-f"></a>
+                    <a href="https://instagram.com/turobxonoff_o3" class="btn fab fa-instagram"></a>
+                    <a href="https://twitter.com" class="btn fab fa-twitter"></a>
+                    <a href="https://linkedin.com" class="btn fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>our location</h3>
+                <div class="links">
+                    <a href="#">uzbekistan</a>
+                    <a href="#">USA</a>
+                    <a href="#">france</a>
+                    <a href="#">japan</a>
+                    <a href="#">russia</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <div class="links">
+                    <a href="#home">home</a>
+                    <a href="#category">category</a>
+                    <a href="#product">products</a>
+                    <a href="#contact">contact</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>download app</h3>
+                <div class="links">
+                    <a href="#">google play</a>
+                    <a href="#">window xp</a>
+                    <a href="#">app store</a>
+                </div>
+            </div>
+
+        </div>
+        <h1 class="credit">Create by <a href="https://github.com">mr. turobxonov</a> | all rights reserved</h1>
+    </footer>
+
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Custom JS file link -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
